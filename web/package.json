@@ -1,0 +1,58 @@
+{
+  "name": "walletlink-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint -p . 'src/**/*.ts{,x}'",
+    "lint:watch": "nodemon -e ts,tsx,js,json,css --watch src/ --exec 'yarn tsc && yarn lint'"
+  },
+  "dependencies": {
+    "bind-decorator": "^1.0.11",
+    "classnames": "^2.2.6",
+    "qrcode.react": "^0.9.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "rxjs": "^6.5.2",
+    "typestyle": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.6.8",
+    "@types/qrcode.react": "^0.8.2",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-router": "^5.0.3",
+    "@types/react-router-dom": "^4.3.4",
+    "rxjs-tslint": "^0.1.7",
+    "tslib": "^1.10.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-security": "^1.16.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "3.5.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
